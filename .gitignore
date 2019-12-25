@@ -1,3 +1,9 @@
+
+/nbproject
+
+*.xml
+*.mf
+
 # Compiled class file
 *.class
 
