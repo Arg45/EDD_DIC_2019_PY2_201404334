@@ -4,7 +4,7 @@ package Proyecto2;
 public class Usuario {
     String nombre;
     String apellido;
-    int carnet;
+    String carnet;
      // 0 - admin
      // 1 - resto
     String pass;
@@ -14,12 +14,12 @@ public class Usuario {
     public Usuario(){
         nombre = "";
         apellido = "";
-        carnet = 0;
+        carnet = "";
         pass = "";
         passE = "";
         tipo = 0;
     }
-    public Usuario(String nombre, String apellido, int carnet, String pass, int tipo) {
+    public Usuario(String nombre, String apellido, String carnet, String pass, int tipo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.carnet = carnet;
